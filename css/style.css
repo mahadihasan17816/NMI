@@ -30,95 +30,24 @@ ul li{
 	margin-top: 25px;
     margin-left:183px;
 }
-.main-nav{
-	margin-top: 0px;
-	background-color: steelblue;
-	/* padding: 15px 5px 1px 0px; */
-}
-.nav-one{
-    border: 1px;
-	background: transparent;
-	color: white;
-	padding: 0px 15px 0px 15px;
-    height: 60px;
-	transition: 0.4s ease-in-out;
-	font-size: 20px;
-}
-.nav-one:hover{
-	cursor:pointer;
-	background: #edeff1; 
-	color: steelblue;
-	font-weight: bold;
-}
-.nav-two{
-    border: 1px;
-	background: transparent;
-	color: white;
-	padding: 0px 15px 0px 15px;
-    height: 60px;
-	transition: 0.4s ease-in-out;
-	font-size: 20px;
-}
-.nav-two:hover{
-	cursor:pointer;
-	font-weight: bold;
-	background: #edeff1; 
-	color: steelblue;
-}
-.nav-three{
-	/* margin-right: 13px; */
-    border: 1px;
-	background: transparent;
-	color: white;
-	padding: 0px 15px 0px 15px;
-    /* border-radius: 20px; */
-    /* width: 112px; */
-	height: 60px;
-	transition: 0.4s ease-in-out;
-	font-size: 20px;
-}
-.nav-three:hover{
-	cursor:pointer;
-	background: #edeff1; 
-	font-weight: bold;
-	color: steelblue;
-}
-.nav-four{
-	/* margin-right: 13px; */
-    border: 1px;
-	background: transparent;
-	padding: 0px 15px 0px 15px;
-    /* border-radius: 20px; */
-	/* width: 146px; */
-	color: white;
-    height: 60px;
-    transition: 0.4s ease-in-out;
-	font-size: 20px;
-}
-.nav-four:hover{
-	cursor:pointer;
-	font-weight: bold;
-	background: #edeff1; 
-	color: steelblue;
-}
-.nav-five{
-	margin-right: 13px;
-	border: 1px;
-	color: white;
-    background: transparent;
-    border-radius: 15px;
-    width: 95px;
-    height: 35px;
-    transition: 0.4s ease-in-out;
-    
-}
-.nav-five:hover{
-	cursor:pointer;
-	background: #edeff1; 
-	font-weight: bold;
-	color: black;
+.navbar-dark{
+	background: #2c3e50;
 }
 
+.nav-link:hover{
+	cursor:pointer;
+	color: #edeff1; 
+	font-weight: bold;
+}
+.nav-link{
+    border: 1px;
+	background: transparent;
+	color: white;
+	padding: 0px 15px 0px 15px;
+	transition: 0.4s ease-in-out;
+	font-size: 20px;
+	font-family: calibri;
+}
 /*Header Section End*/
 
 /*Banner section start*/
@@ -129,25 +58,6 @@ ul li{
 	height: 650px; 
 	background-size: cover;  
 } */
-.banner_img{
-	/* background-image: url(../images/WebpageHeading.jpg) ; */
-	/* background-size: cover; */
-	/* background-position: center; */
-	/* height: 680px; */
-	/* background-size: cover; */
-	/* margin-top: 50px; */
-}
-.banner_img h1{
-	font-size: 60px;
-	width: 65%;
-	padding: 10px 10px 10px 20px;
-	color: white;
-	font-weight: bold;
-	display: block;
-	position: relative;
-	top: 35%;
-	left: 2%;
-}
 .banner h2{
     color: white;
     font-size: 40px;
@@ -264,18 +174,34 @@ font-weight: bold;
 	text-align: center;
 }
 
+.item{
+	margin: auto;
+	width: fit-content;
+}
+
 .parallax {
 	/* The image used */
 	background-image: url("../images/WebpageHeading.jpg");
 	/* Set a specific height */
-	height: 680px; 
+	/* height: 650px; */
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
-	background-position-y: 20px;
-	/* background-position: center; */
 	background-repeat: no-repeat;
-	background-size: cover;
-  }
+	background-size: 100%;
+	background-position-y: 45px;
+}
+  
+.parallax h1{
+	font-size: 4vw;
+	width: 65%;
+	color: white;
+	font-weight: bold;
+	display: block;
+	position: relative;
+	padding-top: 20%;
+	left: 2%;
+	padding-bottom: 25%;
+}
 /*Banner section end*/
 
 /* News section start
@@ -519,8 +445,5 @@ html,body{
 }
 .newsl-prg{
 	width:290px;
-}
-.banner h1{
-	    margin-top: 684px;
 }
 }
