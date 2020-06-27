@@ -437,6 +437,24 @@ html,body{
 	.nav-one{
 		text-align: left;
 	}
+	.Feature1 p{
+		width: fit-content;
+		margin: auto;
+		margin-bottom: 70px;
+	}
+	.Feature2 p{
+		width: fit-content;
+		margin: auto;
+	}
+
+	.about p{
+		width: fit-content;
+		margin: auto;
+	}
+	.item iframe{
+		width: fit-content;
+		margin: auto;
+	}
 /*Header section end*/
 
 
