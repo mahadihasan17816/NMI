@@ -188,7 +188,7 @@ font-weight: bold;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position-y: 48px;
+	background-position-y: 40px;
 }
   
 .parallax h1{
@@ -200,7 +200,7 @@ font-weight: bold;
 	position: relative;
 	padding-top: 20%;
 	left: 2%;
-	padding-bottom: 30%;
+	padding-bottom: 24%;
 }
 /*Banner section end*/
 
