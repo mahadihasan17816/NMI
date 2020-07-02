@@ -278,6 +278,9 @@ html {
   video {
 	width: 100%;
   }
+  .NMI_Description{
+	  text-align: justify;
+  }
   @media screen and (max-width: 650px) {
 	.column {
 	  width: 100%;
